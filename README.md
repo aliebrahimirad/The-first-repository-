@@ -1,2 +1,10 @@
-# The-first-repository-
-The first repository
+from datetime import datetime
+
+def run_task(task_name):
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"✅ Task '{task_name}' executed successfully.")
+    print(f"🕒 Time: {now}")
+
+if __name__ == "__main__":
+    run_task("Sample GitHub Task")
+
