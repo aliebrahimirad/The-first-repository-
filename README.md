@@ -6,5 +6,5 @@ def run_task(task_name):
     print(f"🕒 Time: {now}")
 
 if __name__ == "__main__":
-    run_task("Sampl GitHub Task")
+    run_task("Sample GitHub Task")
 
