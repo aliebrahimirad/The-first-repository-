@@ -6,5 +6,5 @@ def run_task(task_name first):
     print(f"🕒 Tme: {now}")
 
 if __name__ == "__main__":
-    run_task("Sample GitHub Task")
+   if run_task("Sample GitHub Task")
 
