@@ -2,7 +2,7 @@ import os
 from collections import Counter
 
 def analyze_repo(path="."):
-    file_count = 0
+    file_count = 1
     line_count = 0
     extensions = []
 
