@@ -13,7 +13,7 @@ def analyze_repo(path="."):
             file_count += 1
             ext = os.path.splitext(file)[1]
             if ext:
-                extensions.append(ext)
+                extensions.append(exts)
 
             try:
                 with open(os.path.join(root, file), "r", encoding="utf-8", errors="ignore") as f:
