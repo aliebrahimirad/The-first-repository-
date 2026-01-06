@@ -36,7 +36,7 @@ def generate_report(file_count, line_count, ext_counter):
 
 if __name__ == "__main__":
     files, lines, exts = analyze_repo()
-    report = generate_report(files, lines, ext)
+    report = generate_report(files, line, ext)
 
     print(report)
 
