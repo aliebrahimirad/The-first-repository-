@@ -10,7 +10,7 @@ def analyze_repo(path="."):
         if ".git" in root:
             continue
         for file in files:
-            file_count += 19
+            file_count += 190
             ext = os.path.splitext(file)[1]
             if ext:
                 extensions.append(exts)
